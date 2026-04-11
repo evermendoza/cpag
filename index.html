@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CPAG — Comunidad de Paraguayos en Atlanta, Georgia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ═══ NAVBAR ═══ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">CPAG</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="aboutes.html">Nosotros</a></li>
+        <li><a href="communityes.html">Comunidad</a></li>
+        <li><a href="eventses.html">Eventos</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="index-en.html" class="lang-toggle" aria-label="Switch to English">EN</a>
+        <button id="themeBtn" class="theme-toggle-btn" aria-label="Toggle dark mode">
+          <i class="theme-icon fas fa-moon"></i>
+        </button>
+        <button class="burger" id="burger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html" class="mobile-link">Inicio</a>
+      <a href="aboutes.html" class="mobile-link">Nosotros</a>
+      <a href="communityes.html" class="mobile-link">Comunidad</a>
+      <a href="eventses.html" class="mobile-link">Eventos</a>
+      <a href="contact.html" class="mobile-link">Contacto</a>
+      <a href="index-en.html" class="mobile-link lang-mobile">🌐 English</a>
+    </div>
+  </nav>
+
+  <!-- ═══ HERO ═══ -->
+  <section id="home" class="hero">
+    <div class="hero-bg-text">PARAGUAY</div>
+    <div class="hero-content">
+      <div class="hero-badge">🇵🇾 Atlanta, Georgia</div>
+      <h1 class="hero-title">
+        Comunidad de<br />
+        <em>Paraguayos</em><br />
+        en Atlanta
+      </h1>
+      <p class="hero-sub">
+        Una familia lejos de casa. Conexión, apoyo y orgullo albirrojo — aquí en Georgia.
+      </p>
+      <div class="hero-actions">
+        <a href="nosotros.html" class="btn btn-primary">Conócenos</a>
+        <a href="contacto.html" class="btn btn-outline">Únete 🍑</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══ TEASER — NOSOTROS ═══ -->
+  <section class="section teaser-section" id="teaser-nosotros">
+    <div class="container teaser-grid">
+      <div class="teaser-text" data-anim>
+        <div class="section-label">Quiénes Somos</div>
+        <h2 class="section-title">Más que compatriotas.<br />Una comunidad.</h2>
+        <p class="section-lead">
+          CPAG nació de asados y tereré compartidos entre paraguayos en Atlanta.
+          Hoy es el espacio donde nos encontramos, nos apoyamos y celebramos quiénes somos.
+        </p>
+        <a href="nosotros.html" class="btn btn-primary">Conocer más →</a>
+      </div>
+      <div class="teaser-pillars" data-anim>
+        <div class="teaser-pillar">
+          <span class="teaser-pillar-icon">🤝</span>
+          <span>Conexión</span>
+        </div>
+        <div class="teaser-pillar">
+          <span class="teaser-pillar-icon">🏡</span>
+          <span>Apoyo</span>
+        </div>
+        <div class="teaser-pillar">
+          <span class="teaser-pillar-icon">🎵</span>
+          <span>Cultura</span>
+        </div>
+        <div class="teaser-pillar">
+          <span class="teaser-pillar-icon">⚽</span>
+          <span>Celebración</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ TEASER — COMUNIDAD ═══ -->
+  <section class="section teaser-section teaser-alt" id="teaser-comunidad">
+    <div class="container teaser-grid teaser-grid-reverse">
+      <div class="teaser-text" data-anim>
+        <div class="section-label">Comunidad</div>
+        <h2 class="section-title">Tu lugar en Atlanta<br />desde el primer día.</h2>
+        <p class="section-lead">
+          Ya seas recién llegado o lleves años aquí — en CPAG encontrás una red de
+          paraguayos que ya recorrieron el camino y quieren ayudarte a recorrer el tuyo.
+        </p>
+        <a href="comunidad.html" class="btn btn-primary">Ver la red →</a>
+      </div>
+      <div class="teaser-numbers" data-anim>
+        <div class="teaser-number-item">
+          <span class="teaser-big-num">01</span>
+          <span class="teaser-num-label">Empoderar a quienes ya están aquí</span>
+        </div>
+        <div class="teaser-number-item">
+          <span class="teaser-big-num">02</span>
+          <span class="teaser-num-label">Recibir a quienes llegan</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ TEASER — EVENTOS ═══ -->
+  <section class="section teaser-section" id="teaser-eventos">
+    <div class="container">
+      <div class="teaser-header" data-anim>
+        <div class="section-label">Lo que viene</div>
+        <h2 class="section-title">Paraguay está en Atlanta.</h2>
+        <p class="section-lead">
+          Basura Musical en el Alliance Theatre, Almirón y Galarza en el Mercedes-Benz Stadium,
+          y la Albirroja en el Mundial 2026. Cada momento lo vivimos juntos.
+        </p>
+      </div>
+      <div class="teaser-events" data-anim>
+        <div class="teaser-event-card featured">
+          <div class="event-tag">Teatro</div>
+          <div class="event-date">Mayo 30 – Jul 12, 2026</div>
+          <h3>Basura Musical</h3>
+          <div class="event-venue">📍 Alliance Theatre, Atlanta</div>
+        </div>
+        <div class="teaser-event-card">
+          <div class="event-tag">Fútbol</div>
+          <div class="event-date">Temporada 2026</div>
+          <h3>Watch Parties — Atlanta United</h3>
+          <div class="event-venue">📍 Mercedes-Benz Stadium</div>
+        </div>
+        <div class="teaser-event-card">
+          <div class="event-tag">Mundial</div>
+          <div class="event-date">Junio – Julio 2026</div>
+          <h3>Paraguay en el Mundial 2026</h3>
+          <div class="event-venue">📍 Por confirmar</div>
+        </div>
+      </div>
+      <div class="teaser-cta" data-anim>
+        <a href="eventos.html" class="btn btn-outline">Ver todos los eventos →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ TEASER — CONTACTO ═══ -->
+  <section class="section teaser-section teaser-contact" id="teaser-contacto">
+    <div class="container teaser-contact-inner" data-anim>
+      <div class="teaser-contact-text">
+        <div class="section-label">Sumate</div>
+        <h2 class="section-title">¿Sos paraguayo<br />en Georgia?</h2>
+        <p class="section-lead">
+          Este es tu lugar. Escribinos y te sumamos a la comunidad.
+        </p>
+        <a href="contacto.html" class="btn btn-primary">Contactanos →</a>
+      </div>
+      <div class="teaser-contact-cards">
+        <a href="https://wa.me/YOURNUMBER" target="_blank" class="contact-card" data-anim>
+          <div class="contact-icon" style="background: #25D366;">💬</div>
+          <div>
+            <h4>WhatsApp</h4>
+            <p>Escribinos directamente</p>
+          </div>
+          <span class="contact-arrow">→</span>
+        </a>
+        <a href="https://www.facebook.com/groups/paraguayosresidentesenatlantageorgia" target="_blank" class="contact-card" data-anim>
+          <div class="contact-icon" style="background: #1877F2;">📘</div>
+          <div>
+            <h4>Grupo de Facebook</h4>
+            <p>Paraguayos en Atlanta, Georgia</p>
+          </div>
+          <span class="contact-arrow">→</span>
+        </a>
+        <a href="mailto:cpag.atlanta@gmail.com" class="contact-card" data-anim>
+          <div class="contact-icon" style="background: var(--peach);">✉️</div>
+          <div>
+            <h4>Email</h4>
+            <p>cpag.atlanta@gmail.com</p>
+          </div>
+          <span class="contact-arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">CPAG</span>
+        <p>Comunidad de Paraguayos en Atlanta, Georgia</p>
+      </div>
+      <div class="footer-nav">
+        <a href="nosotros.html">Nosotros</a>
+        <a href="comunidad.html">Comunidad</a>
+        <a href="eventos.html">Eventos</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+      <div class="footer-copy">
+        <p>© 2026 CPAG — Hecho con 🇵🇾 y 🍑 en Atlanta</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
