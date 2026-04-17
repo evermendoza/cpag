@@ -2026,3 +2026,36 @@ a { text-decoration: none; color: inherit; }
   cursor: default;
   pointer-events: none;
 }
+
+/* ── Doc download link ── */
+.cta-doc {
+  margin-top: 32px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border);
+}
+
+.doc-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  transition: color var(--transition);
+}
+
+.doc-download:hover {
+  color: var(--peach-dark);
+}
+
+.doc-download i {
+  font-size: 1.2rem;
+  color: var(--peach);
+}
+
+.doc-download-hint {
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: var(--text-muted);
+  opacity: 0.6;
+}
