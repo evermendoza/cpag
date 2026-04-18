@@ -2059,3 +2059,9 @@ a { text-decoration: none; color: inherit; }
   color: var(--text-muted);
   opacity: 0.6;
 }
+
+/* ── Instagram embed ── */
+.connection-instagram {
+  margin-top: 16px;
+  max-width: 480px;
+}
